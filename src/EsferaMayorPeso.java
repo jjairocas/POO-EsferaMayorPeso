@@ -10,7 +10,7 @@ public class EsferaMayorPeso {
         System.out.println("ESFERA C:");
         int PesoEsferaC= input.nextInt();
 
-        int EsferaMayor=0;
+        int EsferaMayor;
 
         if((PesoEsferaA>PesoEsferaB) && (PesoEsferaA>PesoEsferaC)){
             EsferaMayor=PesoEsferaA;
